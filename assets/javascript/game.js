@@ -105,8 +105,8 @@ function imageBoard(array1, array2, appendReference, column, row) {
         //set the buttons
         for (var i=0; i<buttonSearch.length; i++) {
         addAButton(buttonSearch[i], ".jumbotron");
-        buildArray(giffy, arrayURL, arrayMoveURL);
         }
+        buildArray(giffy, arrayURL, arrayMoveURL);
         $(".btn").click(function() {
             search = $(this).data("query");
             buildArray(search, arrayURL, arrayMoveURL);
@@ -114,7 +114,6 @@ function imageBoard(array1, array2, appendReference, column, row) {
         })
     });
 
-//buildArray("angry", arrayURL, arrayMoveURL);
 
 
 
